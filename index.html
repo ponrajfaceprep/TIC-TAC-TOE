@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Description of your webpage">
+    <meta name="keywords" content="keyword1, keyword2, keyword3">
+    <meta name="author" content="Your Name">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project tic tac toe</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="index.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+<body >
+    <div class = 'root'>
+        <div class = 'container' >
+            <div class = 'game-text'>
+                <h1>TIC TAC TOE</h1>
+            </div>
+    
+            <div class = 'div-2'>
+                <table>
+                    <tr>
+                        <td><button id = 'b1' type = 'button' onclick = 'update( "b1" )'></button></td>
+                        <td><button id = 'b2' type = 'button' onclick = 'update( "b2" )'></button></td>
+                        <td><button id = 'b3' type = 'button' onclick = 'update( "b3" )'></button></td>
+                    </tr>
+                    <tr>
+                        <td><button id = 'b4' type = 'button' onclick = 'update( "b4" )'></button></td>
+                        <td><button id = 'b5' type = 'button' onclick = 'update( "b5" )'></button></td>
+                        <td><button id = 'b6' type = 'button' onclick = 'update( "b6" )'></button></td>
+                    </tr>
+                    <tr>
+                        <td><button id = 'b7' type = 'button' onclick = 'update( "b7" )'></button></td>
+                        <td><button id = 'b8' type = 'button' onclick = 'update( "b8" )'></button></td>
+                        <td><button id = 'b9' type = 'button' onclick = 'update( "b9" )'></button></td>
+                    </tr>
+                </table>
+            </div>
+    
+            <div class = 'div-4'>
+                <button class = 're' type = 'button' onclick = 'reset()'>Reset</button>
+            </div>
+        </div>
+        <div class = 'devp'>DESIGNED BY <div style="color: #ef51359c; margin-top: -23px; margin-left: 135px;">FACE PREP</div></div>
+    </div>
+    <div id = 'result'>
+        <h1 id = 'game-text-1'>CLICK TO START</h1>
+    </div>
+    <button id = 'start' type = 'button' onclick = 'start_game()'><img src = "./Resources/play button icon.png" alt = "play button" width="20px"></button>
+</body>
+</html>

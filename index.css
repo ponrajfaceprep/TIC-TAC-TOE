@@ -1,0 +1,156 @@
+
+body
+        {
+            background-color: rgb(32, 32, 32);
+        }
+        h1
+        {
+            padding: 20px;
+        }
+        td
+        {
+            width: 70px;
+            height: 70px;
+            /* background-color: #3F8BE4; */
+        }
+        table
+        {
+            /* padding: 45px; */
+            padding: 8px 15px 15px 15px;
+        }
+        #b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8, #b9
+        {
+            width: 70px;
+            height: 70px;
+            background-image: url('./Resources/Cell.png');
+            border: none;
+            padding: 6px;
+            font-size: 30px;
+            color: #3FE4C0;
+        }
+        .devp
+        {
+            /* background-color: #3FE4C0; */
+            width: 634px;
+            height: 50px;
+            color: #3F8BE4;
+            padding: 0px 0px 0px 200px;
+            font-family: 'Poppins';
+            font-size: 15px;
+            letter-spacing: 3px;
+            margin-left: 320px;
+            padding-top: 40px;
+        }
+
+        
+        .bdy
+        {
+            width: 100%;
+            height: 580px;
+            background-color: black;
+        }
+
+        .container
+        {
+            width: 634px;
+            height: 420px;
+            background-image: url('./Resources/Container.png');
+            /* background-color: #ac40aa; */
+            border-radius: 10px;
+            opacity: 70%;
+            margin-top: 80px;
+            margin-left: 320px;
+            font-family: 'Poppins';
+            position: relative;
+        }
+
+        .game-text
+        {
+            width: 100%;
+            height: 80px;
+            color: #3F8BE4;
+            /* background-color: #8ac926; */
+            text-align: center;
+            letter-spacing: 3px;
+        }
+
+        .div-2
+        {
+            width: 40%;
+            height: 240px;
+            margin-top: 10px;
+            margin-left: 30%;
+            /* height: 300px; */
+            /* background-color: #e4b83f; */
+            float: left;
+        }
+        .div-4
+        {
+            width: 40%;
+            height: 50px;
+            /* background-color: #8ac926; */
+            margin-left: 30%;
+            margin-top: 15px;
+            float: left;     
+            text-align: center;
+            font-size: 13px;
+            letter-spacing: 3px;
+        }
+        .re
+        {
+            width: 40%;
+            height: 40px;
+            background-color:#3FE4C0;
+            color:#283C4F;
+            text-align: center;
+            font-size: 16px;
+            letter-spacing: 2px;
+            padding: 2px 6px 2px 6px;
+            border: none;
+            border-radius: 5px;
+        }
+        #result
+        {
+          width: 390px;
+          height: 200px;
+          background-color: #1a1a1aac;
+          color: #9a30af;
+          margin-top: -417px;
+          margin-left: 440px;
+          opacity: 80%;
+          border-radius: 10px;
+          text-align: center;
+          font-size: 13px;
+          letter-spacing: 3px;
+          font-family: 'Poppins';
+          position: absolute;
+        }
+        #game-text-1
+        {
+          width: 290px;
+          height: 40px;
+          position: absolute;
+          font-size: 30px;
+          text-align: center;
+          /* background-color: #3f8be447; */
+          letter-spacing: 3px;
+          margin-top: -20px;
+          padding: 50px;
+          font-family: 'Poppins';
+        }
+        #start
+        {
+            width: 102px;
+            height: 40px;
+            position: absolute;
+            margin-top: -306px;
+            margin-left: 586px;
+            background-color:#c2ca1ac2;
+            color:#0f171e;
+            text-align: center;
+            font-size: 16px;
+            letter-spacing: 2px;
+            padding: 5px 6px 2px 8px;
+            border: none;
+            border-radius: 5px;
+        }

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Description of your webpage">
+    <meta name="keywords" content="keyword1, keyword2, keyword3">
+    <meta name="author" content="Your Name">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Webpage Title</title>
+</head>
+<body>
+    <button id="btn" type="button" onclick="change()"></button>
+    <style>
+      button
+      {
+        background-color: aqua;
+        border: none;
+        width: 30px;
+        height: 30px;
+      }
+    </style>
+
+    <script>
+      let xo = 'O';
+
+      function change(){
+        (xo === 'O') ? xo = 'X' : xo = 'O';
+        document.getElementById('btn').innerHTML = xo;
+      }
+    </script>
+</body>
+</html>
